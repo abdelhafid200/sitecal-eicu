@@ -1,0 +1,8 @@
+méthode,perso | réel,perso | rot a=0,perso | rot a=0.5,perso | rot a=1,global | réel,global | rot a=0,global | rot a=0.5,global | rot a=1
+local,0 / 0,0 / 0,0 / 0,0 / 0,0 / 0,0 / 0,0 / 0,0 / 0
+pool,8 / 5,11 / 7,6 / 6,5 / 7,10 / 5,13 / 7,11 / 7,15 / 7
+shrink n0=10 (recommandé),0 / 0,0 / 0,0 / 0,0 / 0,0 / 0,0 / 0,0 / 0,0 / 0
+shrink n0=19 (Shahid),1 / 0,0 / 0,0 / 0,0 / 0,1 / 0,0 / 0,1 / 0,1 / 0
+donneurs conformal M=10,5 / 3,5 / 6,2 / 4,2 / 5,5 / 3,6 / 6,4 / 4,8 / 5
+pool + bayes η=0.05,1 / 0,0 / 1,1 / 0,0 / 0,1 / 0,0 / 1,1 / 0,1 / 0
+donneurs + bayes η=0.05,1 / 0,0 / 0,0 / 0,0 / 0,1 / 0,0 / 0,0 / 0,1 / 0

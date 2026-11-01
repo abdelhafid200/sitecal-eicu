@@ -1,0 +1,9 @@
+méthode,perso excès,perso excès petits,perso alertes,perso alertes petits,perso sens moy,perso valide,global excès,global excès petits,global alertes,global alertes petits,global sens moy,global valide
+local,+0.0,+0.0,0.832,0.986,0.952,oui,+0.0,+0.0,0.831,0.986,0.952,oui
+pool,+4.8,+2.7,0.634,0.612,0.890,NON,+5.3,+2.2,0.625,0.604,0.889,NON
+shrink n0=10 (recommandé),+0.0,+0.0,0.741,0.778,0.933,oui,+0.0,+0.0,0.736,0.773,0.932,oui
+shrink n0=19 (Shahid),+0.0,-0.3,0.708,0.718,0.921,oui,+0.0,-0.3,0.702,0.712,0.920,oui
+donneurs conformal M=10,+0.4,-3.5,0.653,0.662,0.903,oui,+1.2,-3.1,0.648,0.658,0.902,oui
+pool + bayes η=0.05,-0.1,-1.0,0.780,0.777,0.947,oui,+0.1,-0.9,0.777,0.772,0.946,oui
+donneurs + bayes η=0.05,+0.1,-0.4,0.756,0.768,0.939,oui,+0.2,-0.5,0.752,0.765,0.938,oui
+pool + bayes η=0.2 (exploratoire),-0.1,-1.8,0.703,0.690,0.920,oui,-0.0,-1.4,0.698,0.684,0.919,oui

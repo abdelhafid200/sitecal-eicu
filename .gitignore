@@ -1,0 +1,28 @@
+# eICU data and patient-level derivatives: never publish (PhysioNet data use agreement)
+dataset/
+data_real_hospital*/
+*.pkl
+*.pt
+*.csv.gz
+paper/manuscript/
+
+# Original working notebooks (long outputs, kept locally only)
+notebooks_original/
+
+# Jupyter / Python
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+
+# Local secrets and editor / assistant settings
+.env*
+.vscode/
+.claude/
+
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
